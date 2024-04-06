@@ -22,9 +22,16 @@ repositories {
 }
 
 dependencies {
+	// default
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// lombok
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+
+	// Spring Boot Starter Thymeleaf 의존성
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
